@@ -133,6 +133,10 @@ export default function PricingSection() {
         <p className="mt-10 text-center text-xs text-mute">
           Placeholder pricing shown for layout only. Final plans and prices are not yet confirmed.
         </p>
+
+        <p className="mt-6 text-center text-sm text-mute">
+          Payment method: <span className="font-medium text-paper">PayPal</span>
+        </p>
       </Container>
     </section>
   );
