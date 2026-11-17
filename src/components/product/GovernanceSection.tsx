@@ -11,7 +11,7 @@ export default function GovernanceSection() {
           <SectionHeading
             eyebrow="Governance & Enterprise Readiness"
             title="Control, Accountability, and a Record for Every Change"
-            description="Enterprise teams need to know who changed what, who approved it, and who can see it. Odevico keeps those answers in the workflow itself."
+            description="Teams need to know who changed what, who approved it, and who can see it. Odevora keeps those answers alongside the work, from the first language version through delivery."
           />
         </div>
 
