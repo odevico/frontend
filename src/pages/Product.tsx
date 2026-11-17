@@ -4,7 +4,7 @@ import ProductCTA from '@/components/product/ProductCTA';
 import ProductDashboardPreview from '@/components/product/ProductDashboardPreview';
 import ProductHero from '@/components/product/ProductHero';
 import ProductOverview from '@/components/product/ProductOverview';
-import TechnicalShowcase from '@/components/product/TechnicalShowcase';
+import ProductRoadmap from '@/components/product/ProductRoadmap';
 
 export default function Product() {
   return (
@@ -13,7 +13,7 @@ export default function Product() {
       <ProductOverview />
       <LocalizationWorkflow />
       <ProductDashboardPreview />
-      <TechnicalShowcase />
+      <ProductRoadmap />
       <GovernanceSection />
       <ProductCTA />
     </>

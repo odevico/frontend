@@ -19,7 +19,7 @@ function HeroPreviewCard() {
     >
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="eyebrow">Active project</p>
+          <p className="eyebrow">Sample workspace</p>
           <p className="mt-2 font-display text-xl font-medium text-paper">{previewProject.name}</p>
         </div>
         <span className="rounded-full border border-accent/50 px-3 py-1 text-xs text-accent">{previewProject.status}</span>
@@ -84,7 +84,7 @@ export default function ProductHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            The Odevico Platform
+            Odevora by Odevico
           </motion.p>
           <motion.h1
             className="mt-6 text-5xl font-medium leading-[1.05] text-paper sm:text-6xl xl:text-7xl"
@@ -102,8 +102,9 @@ export default function ProductHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.55 }}
           >
-            Manage your video assets, multilingual production, reviews, and delivery through a centralized localization
-            workspace.
+            Bring video projects, language versions, translation and subtitle records, dubbing coordination, reviews,
+            and delivery into one shared workspace. Give every collaborator a clear next step and every version a
+            visible path to approval.
           </motion.p>
           <motion.div
             className="mt-10 flex flex-col gap-4 sm:flex-row"
@@ -111,11 +112,11 @@ export default function ProductHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.7 }}
           >
-            <Button to="/#contact" showArrow className="h-14 px-8">
-              Contact Us
+            <Button href="http://client.odevico.com" showArrow className="h-14 px-8">
+              Open Odevora
             </Button>
             <Button to="/product#overview" variant="secondary" className="h-14 px-8">
-              Explore Capabilities
+              Explore the Workflow
             </Button>
           </motion.div>
         </div>

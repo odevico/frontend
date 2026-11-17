@@ -63,7 +63,7 @@ export default function ProductDashboardPreview() {
         <SectionHeading
           eyebrow="Product Interface"
           title="See Every Localization Project at a Glance"
-          description="A preview of the Odevico workspace with sample data. It shows how progress, reviews, and language coverage are presented."
+          description="A sample view of the Odevora workspace, showing how teams can scan project progress, reviews, and language coverage."
         />
 
         <AnimatedSection delay={0.15} className="mt-16">
@@ -72,7 +72,7 @@ export default function ProductDashboardPreview() {
               <span className="h-2.5 w-2.5 rounded-full bg-line" />
               <span className="h-2.5 w-2.5 rounded-full bg-line" />
               <span className="h-2.5 w-2.5 rounded-full bg-line" />
-              <span className="ml-4 text-xs text-mute">Odevico Workspace</span>
+              <span className="ml-4 text-xs text-mute">Odevora Workspace</span>
             </div>
 
             <div className="flex">
